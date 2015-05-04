@@ -31,6 +31,6 @@ Nota 3: El archivo irá agregando mas tips segun necesitemos
 	```console  
 	git checkout Reglas 
 	``` 
-	La última parte del comado es una especie de link, linkea nuestra rama actual con la rama del repositorio; por lo tanto cualquier cambio que realizamos en la rama local se vera reflejado en nuestro rama en el repositorio(Explicar'e como se hace esto luego).
+	La última parte del comado es una especie de link, linkea nuestra rama actual con la rama del repositorio; por lo tanto cualquier cambio que realizamos en la rama local se vera reflejado en nuestro rama en el repositorio(Explicaré como se hace esto luego).
 
 P.D : Mañana extenderé mas el archivo con la explicacion de como realizar cambios en nuestro repositorio y que se vean reflejados en el repositorio web.
