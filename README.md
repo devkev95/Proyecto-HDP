@@ -47,7 +47,7 @@ Despues de haber clonado en el repositorio test en nuestra computadora, imaginem
 ```console  
 git status -s -u
 ```
-El comando nos muestra los archivos a los cuales no se les esta dando seguimiento en el repositorio local, esto se hace con el modificador -u, y nos muestra la versión resumida de la informacion de estos archivos(el nombre de los archivos sin seguir), esto se hace con el modificador -s, si deseamos darle seguimiento, por ejemplo, al archivo hello_world.py utilizamos el siguiente comado:
+El comando nos muestra los archivos a los cuales no se les esta dando seguimiento en el repositorio local en la rama actual, esto se hace con el modificador -u, y nos muestra la versión resumida de la informacion de estos archivos(el nombre de los archivos sin seguir), esto se hace con el modificador -s, si deseamos darle seguimiento, por ejemplo, al archivo hello_world.py utilizamos el siguiente comado:
 ```console  
 git add hello_world.py
 ```
