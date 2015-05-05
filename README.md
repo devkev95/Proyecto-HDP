@@ -83,7 +83,7 @@ El comando anterior nos permite evitar que git nos pida un mensaje para justific
 
 Por ultimo, solo como aclaración, todo este proceso solo tiene efecto en una rama especifica, por ejemplo si cambiamos un archivo de una rama y deseamos que los cambios de este archivo se vean reflejados en esa rama realizamos el proceso anterior y los cambios se verán reflejados en la rama del repositrio remoto, es decir, que este proceso lo tenemos que realizar por cada cambio que realizemos en cada rama de nuestro repositorio local para que se vean reflejados en nuestro repositorio remoto. 
 
-P.D : Si hay algun error hagánmelo saber pr facebook, porque no probé ninguno d estos cmando solo lei lo que hacian
+P.D : Si hay algun error hagánmelo saber por facebook, porque no probé ninguno de estos comandos solo lei lo que hacian
 
 ### Links Importantes
 * Documentacion git (http://git-scm.com/docs/)
