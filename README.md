@@ -47,15 +47,15 @@ Despues de haber clonado en el repositorio test en nuestra computadora, imaginem
 ```console  
 git status -s -u
 ```
-El comando nos muestra los archivos a los cuales no se les esta dando seguimiento en el repositorio local en la rama actual, esto se hace con el modificador -u, y nos muestra la versión resumida de la informacion de estos archivos(el nombre de los archivos sin seguir), esto se hace con el modificador -s, si deseamos darle seguimiento, por ejemplo, al archivo hello_world.py utilizamos el siguiente comado:
+El comando nos muestra los archivos a los cuales no se les esta dando seguimiento en el repositorio local en la rama actual, esto se hace con el modificador -u, y nos muestra la versión resumida de la informacion de estos archivos(el nombre de los archivos sin seguir), esto se hace con el modificador -s, si deseamos darle seguimiento, por ejemplo, al archivo hello_world.py en la rama que actualmente nos encontramos utilizamos el siguiente comado:
 ```console  
 git add hello_world.py
 ```
-Si hubieramos deseado darle seguimiento a todos los archivos se utiliza la siguiente instruccion:
+Si hubieramos deseado darle seguimiento a todos los archivos que se encuentra en la rama que estamos revisando se utiliza la siguiente instruccion:
 ```console  
 git add -A
 ```
-El modificador -A le ordena al repositorio local darle seguimiento a todos los archivos que no son seguidos o actualizar los archivos que ya son seguidos.
+El modificador -A le ordena al repositorio local darle seguimiento a todos los archivos que no son seguidos o actualizar los archivos que ya son seguidos en la rama en la que actualmente nos encontramos
 
 Este seguimiento de los archivos es el que nos permite tomar una "captura" de el estado actual de nuestro proyecto para luego subir esta "captura" a nuestro repositorio remoto. Para tomar una "captura" del estado actual de nuestro repositorio local utilizamos el siguiente comando:
 ```console  
@@ -73,7 +73,7 @@ Ya que generalmente, como en nuestro caso, no es una sola persona la que trabaje
 ```console  
 git pull
 ``` 
-para combinar el arbol de archivos de nuestro repositorio local con el de el repositorio remoto. Apunto que ejecutar el comando anterior no es una buena practica, es mejor usar primero el comando git fetch y luego git merge. En un link que pongo mas adelante en el archivo hay una explicación del porqué y opciones de como arreglar estas inconsistencias.
+para combinar el arbol de archivos de nuestro repositorio local con el de el repositorio remoto en la rama en la cual nos encontramos. Apunto que ejecutar el comando anterior no es una buena practica, es mejor usar primero el comando git fetch y luego git merge, aunque para las parcticas es suficiente con eso. En un link que pongo mas adelante en el archivo hay una explicación del porqué y opciones de como arreglar estas inconsistencias.
 
 En nuestro caso una mejor opcion del comando anterior sería:
 ```console  
